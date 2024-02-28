@@ -1,0 +1,36 @@
+
+/*
+ Using a class selector - not the required approach
+ */
+
+/*
+button {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+*/
+
+/*
+ Using grouping Id selectors - the required approach
+ */
+
+.button1, .button2 {
+
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/*
+ * Individual Id selectors for the button specific styles
+ */
+
+.button1 {
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: yellow;
+}
