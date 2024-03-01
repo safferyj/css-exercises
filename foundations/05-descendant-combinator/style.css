@@ -1,0 +1,32 @@
+
+/*
+ * Class Descendant Combinators
+ */
+
+ /*
+
+.container .text {
+
+    background: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+*/
+
+/*
+ * Type Descendant Combinators
+ */
+
+
+
+div p {
+
+    background: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
